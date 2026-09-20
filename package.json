@@ -1,0 +1,37 @@
+{
+  "name": "skyline-volley",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "lan": "npm run build && node server.mjs",
+    "check": "tsc -b && eslint ."
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "canvas-confetti": "^1.9.3",
+    "express": "^5.1.0",
+    "lucide-react": "^0.468.0",
+    "peerjs": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "latest",
+    "vite": "latest"
+  }
+}
